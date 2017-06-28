@@ -8,3 +8,5 @@ sorted([36, 5, -12, 9, -21], key=abs)
 
 #要进行反向排序，不必改动key函数，可以传入第三个参数reverse=True:     ((( 可以一直加条件，第一个是list！！！)))
 sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True)
+sorted([36, 5, -12, 9, -21])
+sorted([36, 5, -12, 9, -21], key=abs)   #必须有key=
