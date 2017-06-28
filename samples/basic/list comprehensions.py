@@ -31,3 +31,13 @@ for t in triangles():
     n = n + 1
     if n == 10:
         break
+
+        
+#这些可以直接作用于for循环的对象统称为可迭代对象：Iterable。
+##可以使用isinstance()判断一个对象是否是Iterable对象
+
+#可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterator  它们表示一个惰性计算的序列
+##可以使用isinstance()判断一个对象是否是Iterator对象
+
+#生成器都是Iterator对象，但list、dict、str虽然是Iterable，却不是Iterator。
+#把list、dict、str等Iterable变成Iterator可以使用iter()函数
